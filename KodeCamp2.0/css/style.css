@@ -7,6 +7,8 @@
 .flex-container{
     display:flex;
     width:80%;
+    height:70vh;
+    padding-top:100px;
     margin:0 auto;
     justify-content:space-between;
 }
@@ -57,44 +59,65 @@ font-size:18px;
 .headings .header{
     width:80%;
     text-align:center;
-    font-size:40px;
+    padding:10px;
+    font-size:50px;
     margin:0px auto;
 }
 .headings .paragraph{
     width:80%;
     text-align: center;
-    font-size:18px;
+    font-size:30px;
     margin:0px auto;
 }
 
-.flex-wrap{
+.flex-wrap #grid{
     width:80%;
     margin:0px auto;
-    margin-top:100px;
-}
-.flex-wrap .flex-icons{
-    display:flex;
     justify-content: center;
-}
-
-.icon{
-    border:2px solid grey;
-    background:#fff;
-    width:20%;
-    height:25vh;
-    padding-left:1opx;
-    padding:20px;
-}
-
-#wheel{
-    background:#FF6433;
+    margin-left:10%;
+    margin-top: 80px;
 }
 .bottom{
     width:80%;
     margin-top:30px;
+    margin-left:200px;
     display:flex;
     justify-content:flex-end;
 }
 .bottom img{
     margin-left:16px;
+    width:50px;
 }
+.bottom p{
+    font-size:25px;
+}
+
+ 
+#templateThree .image-wrapper{
+    background-image: url("/img/CTA.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:40vh;
+}
+
+#templateThree .experience{
+    background-image: url("/img/Experience.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:20vh;
+}
+
+#templateFour{
+    width:100%;
+  
+}
+#templateFour .brands{
+    background-image:url("/img/Brands.png");
+    background-repeat:no-repeat;
+    height: 70vh;
+    width:100%;
+    background-size:cover;
+    margin:0px auto;
+}
+
