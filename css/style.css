@@ -85,27 +85,25 @@ font-size:18px;
     justify-content:flex-end;
 }
 .bottom img{
-    margin-left:16px;
+    margin-left:10px;
     width:50px;
 }
 .bottom p{
+    padding-top:20px;
+    padding-bottom:20px;
     font-size:25px;
 }
 
  
-#templateThree .image-wrapper{
-    background-image: url("/img/CTA.png");
+#templateThree .firstImage{
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
     height:40vh;
 }
 
-#templateThree .experience{
-    background-image: url("/img/Experience.png");
-    background-repeat:no-repeat;
-    background-size:cover;
-    height:20vh;
+.experience{
+    padding-top:100px;
 }
 
 #templateFour{
@@ -113,7 +111,6 @@ font-size:18px;
   
 }
 #templateFour .brands{
-    background-image:url("/img/Brands.png");
     background-repeat:no-repeat;
     height: 70vh;
     width:100%;
