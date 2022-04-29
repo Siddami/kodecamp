@@ -98,7 +98,7 @@ font-size:18px;
 #templateThree .firstImage{
     background-repeat:no-repeat;
     background-size:cover;
-    width:100%;
+    width:80%;
     height:40vh;
 }
 
@@ -107,13 +107,13 @@ font-size:18px;
 }
 
 #templateFour{
-    width:100%;
+    width:80%;
   
 }
 #templateFour .brands{
     background-repeat:no-repeat;
     height: 70vh;
-    width:100%;
+    width:80%;
     background-size:cover;
     margin:0px auto;
 }
