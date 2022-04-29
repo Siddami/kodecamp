@@ -55,6 +55,8 @@ font-size:18px;
 
 #templateTwo{
     background:rgba(160, 156, 148, 0.56);
+    width:100%;
+    margin:0px auto;
 }
 .theWrapper{
     padding-top: 80px;
@@ -102,23 +104,28 @@ font-size:18px;
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
+    margin:0px auto;
+    justify-content: center;
     height:50vh;
 }
 
 .experience img{
     width:100%;
+    margin:0px auto;
+    justify-content: center;
 }
 
 #templateFour{
     width:100%;
     margin:0px auto;
-  
 }
+
 #templateFour .brands img{
     background-repeat:no-repeat;
     width:100%;
     height: 60vh;
     background-size:50px;
     margin:0px auto;
+    justify-content: center;
 }
 
